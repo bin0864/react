@@ -1,2 +1,1 @@
-# react
-react 연습용이랄까
+React 기초 실습 에제 입니다.
