@@ -1,20 +1,23 @@
 import { useState } from 'react'
 import './App.css'
 import Header from './component/Header'
-import { Section } from './component/Section'
+import Nav from './component/Nav'
+import Section from './component/Section'
+import Article from './component/Article'
+import Aside from './component/Aside'
 import { Footer } from './component/Footer'
-import { main } from './component/main'
 
 function App() {
-  const getGreeting=(name)=>`안녕 ${name}`
 
   return (
-    <div>
+    <div className='container'>
       <Header/>
-      <Section/>
-      <main/>
-      <h1>Hello React!</h1>
-      <p>{getGreeting('Aclice')}</p>
+      <Nav/>
+      <div className='content'>
+        <Section/>
+        <Article/>
+        <Aside/>
+      </div>
       <Footer/>
     </div>
   )

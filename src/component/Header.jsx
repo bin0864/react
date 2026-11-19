@@ -1,16 +1,7 @@
 import React from 'react'
 
-const Header = () => {
-    const isLoggedIn=false
+export default function Header() {
   return (
-    <div>Header
-        <p>
-            {isLoggedIn ? 
-            <strong>hello</strong>:
-            <strong>goodbye</strong>}
-        </p>
-    </div>
+    <header>Header</header>
   )
 }
-
-export default Header
