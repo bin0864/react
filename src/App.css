@@ -1,0 +1,48 @@
+.wrap{
+    background-color: skyblue;
+    height: 100vh;
+}
+
+.container{
+    background-color: rgb(152, 235, 0);
+    border: 2px solid black;
+    margin: auto;
+    width: 800px;
+}
+
+header{
+    background-color: orangered;
+    color: white;
+    padding: 30px;
+    margin: 10px;
+}
+
+header ul{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 30px;
+    background-color: antiquewhite;
+    padding: 10px;
+}
+
+header ul li a{
+    color: black;
+}
+
+footer{
+    background-color: orangered;
+    color: white;
+    padding: 30px;
+    margin: 10px;
+}
+
+footer ul{
+    display: flex;
+    justify-content: space-around;
+    background-color: antiquewhite;
+    padding: 10px;
+}
+
+footer ul li a{
+    color: black;
+}
